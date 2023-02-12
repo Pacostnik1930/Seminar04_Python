@@ -1,11 +1,9 @@
+# Найти порследовательности числа фибоначчи
 
 def fib(n):
     if n in (0,1):
         return 1
-    return fib(n-1)+fib(n-2)    
+    return fib(n-1)+fib(n-2)  
+print('Введите число:')      
 n = int(input())
-print(fib(n))
-# list_1 = []
-# for i in range(1,10):
-#     list_1.append(fib(i))    
-# print(list_1)    
+print(fib(n-2))
